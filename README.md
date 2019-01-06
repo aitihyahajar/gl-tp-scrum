@@ -1,6 +1,6 @@
 # gl-tp-scrum
 
-#Version 2
+#Version 3
 
 Dans cette version (partie XML et partie TXT) on réaliser un fichier (choix.bat)
 
