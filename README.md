@@ -13,3 +13,8 @@ Dans cette version (partie XML) on réaliser deux fichiers (xml.bat et test.py)
 
     -Ce fichier crée un dossier sous le nom textXml, ce dernier va contenir des fichiers xml qui ont créer par xml.bat
     -chacun des fichiers pdf a sa conversion en fichier xml.
+Voici la commande pour éxecuter le programme: 
+
+gl-tp-scrum$ ./choisir_option.bat -t : cette commande va convetir les pdf  en Format text.
+
+gl-tp-scrum$ ./choisir_option.bat -x : cette commande convetir les pdf en Format XML.
