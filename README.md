@@ -13,5 +13,6 @@ Dans cette version (partie XML et partie TXT) on réaliser un fichier (choix.bat
 -Pour convertir un fichier pdf  vous pouvez choisir votre fichier pdf en saisissant le numero ce fichier dans le dossier (numero selon l'ordre du pdf dans le dossier) et choisir le type de la sortie XML ou TXT donc la commande sera de cette façon:
 
 gl-tp-scrum$ ./choix.bat -t 1 2 : cette commande convetit le pdf 1 et 2 en Format text.
+
 gl-tp-scrum$ ./choix.bat -x 1 2 : cette commande convetit le pdf 1 et 2 en Format XML.
 
