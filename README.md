@@ -13,6 +13,7 @@ Dans cette version (partie XML et partie TXT) on réaliser un fichier (choix.bat
 
 # comment utiliser
 **Etape 1**
+
  -pour consulter les fichiers pdf et les indices dans votre dossier Papers executez la commande 
  >./convert1.bat
  ## Exemple du resultat
