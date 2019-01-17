@@ -1,6 +1,6 @@
 # gl-tp-scrum
 
-#Version 3
+# Version 3
 
 
 Dans cette version (partie XML et partie TXT) on réaliser un fichier (choix.bat)
@@ -11,11 +11,11 @@ Dans cette version (partie XML et partie TXT) on réaliser un fichier (choix.bat
 
 -Ce fichier permet de de faire le choix de convertation (XML ou TXT). Aprés la convertation ce fichier créer un dossier text1 pour les fichiers TXT qui sont convertés et un autre dossier textXml pour les fichiers XML qui sont convertés.
 
-##comment utiliser
-1. Etape 1
+# comment utiliser
+**Etape 1**
  -pour consulter les fichiers pdf et les indices dans votre dossier Papers executez la commande 
  >./convert1.bat
- #Exemple du resultat
+ ## Exemple du resultat
  ```
  uapv1900407@pedago02a:~/gl_projet/gl-tp-scrum$ ./convert1.bat
 Liste et indice des pdfs :
@@ -32,7 +32,7 @@ executez la commande :
 ./choix.bat -x *indice* pour  obtenir un fichier XML
  ```
  
- 2. Etape 2
+ **Etape 2**
 
 -Pour convertir un fichier pdf  vous pouvez choisir votre fichier pdf en saisissant le numéro du fichier dans le dossier (numero selon l'ordre du pdf dans le dossier) et choisir le type de la sortie XML ou TXT donc la commande sera de cette façon:
 
