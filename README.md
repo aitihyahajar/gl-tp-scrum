@@ -41,3 +41,17 @@ executez la commande :
 
 > gl-tp-scrum$ ./choix.bat -x 1 2 : cette commande convetit le pdf d'indice 1 et 2 en Format XML.
 
+ ## Exemple du resultat
+''' 
+uapv1900407@e-mc137-102:~/Bureau/gl/gl-tp-scrum$ ./choix.bat -x 1 2
+vos fichiers : 
+pd1.pdf
+
+pd1.pdf à convertir... 
++------------------------------------------------------------------+
+pdf2.pdf
+
+pdf2.pdf à convertir... 
++------------------------------------------------------------------+
+'''
+
