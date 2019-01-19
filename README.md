@@ -21,10 +21,10 @@ Dans cette version (partie XML et partie TXT) on réaliser un fichier (choix.bat
  uapv1900407@pedago02a:~/gl_projet/gl-tp-scrum$ ./convert1.bat
 Liste et indice des pdfs :
 ----------------------------------------
-pd1.pdf indice=0
+pd1.pdf indice=1
 
 ----------------------------------------
-pdf2.pdf indice=1
+pdf2.pdf indice=2
 
 ----------------------------------------
 pour convertir la forme de coverte(txt ou XML)
