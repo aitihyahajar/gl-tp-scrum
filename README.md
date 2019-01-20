@@ -12,6 +12,9 @@ Dans cette version (partie XML et partie TXT) on réaliser un fichier (choix.bat
 -Ce fichier permet de de faire le choix de convertation (XML ou TXT). Aprés la convertation ce fichier créer un dossier text1 pour les fichiers TXT qui sont convertés et un autre dossier textXml pour les fichiers XML qui sont convertés.
 
 # comment utiliser
+&#x1F534;
+IMPORTANT ! : il faut déplacer vos fichiers pdfs dans le dossier Papers 
+&#x1F534;
 **Etape 1**
 
  -pour consulter les fichiers pdf et les indices dans votre dossier Papers executez la commande 
