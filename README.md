@@ -15,6 +15,7 @@ Dans cette version (partie XML et partie TXT) on réaliser un fichier (choix.bat
 &#x1F534;
 IMPORTANT ! : il faut déplacer vos fichiers pdfs dans le dossier Papers 
 &#x1F534;
+
 **Etape 1**
 
  -pour consulter les fichiers pdf et les indices dans votre dossier Papers executez la commande 
