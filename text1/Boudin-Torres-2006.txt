@@ -1,0 +1,117 @@
+le nom de fichier est: Boudin-Torres-2006
+A Scalable MMR Approach to Sentence Scoring
+for Multi-Document Update Summarization
+Labstract de lauteur est:
+Abstract
+
+redundancy with previously read documents (history) has to be removed from the extract.
+A natural way to go about update summarization
+would be extracting temporal tags (dates, elapsed
+times, temporal expressions...) (Mani and Wilson,
+2000) or to automatically construct the timeline
+from documents (Swan and Allan, 2000). These
+temporal marks could be used to focus extracts on
+the most recently written facts. However, most recently written facts are not necessarily new facts.
+Machine Reading (MR) was used by (Hickl et
+al., 2007) to construct knowledge representations
+from clusters of documents. Sentences containing “new” information (i.e. that could not be inferred by any previously considered document)
+are selected to generate summary. However, this
+highly efficient approach (best system in DUC
+2007 update) requires large linguistic resources.
+(Witte et al., 2007) propose a rule-based system
+based on fuzzy coreference cluster graphs. Again,
+this approach requires to manually write the sentence ranking scheme. Several strategies remaining on post-processing redundancy removal techniques have been suggested. Extracts constructed
+from history were used by (Boudin and TorresMoreno, 2007) to minimize history’s redundancy.
+(Lin et al., 2007) have proposed a modified Maximal Marginal Relevance (MMR) (Carbonell and
+Goldstein, 1998) re-ranker during sentence selection, constructing the summary by incrementally
+re-ranking sentences.
+In this paper, we propose a scalable sentence
+scoring method for update summarization derived
+from MMR. Motivated by the need for relevant
+novelty, candidate sentences are selected according to a combined criterion of query relevance and
+dissimilarity with previously read sentences. The
+rest of the paper is organized as follows. Section 2
+
+We present S MMR, a scalable sentence
+scoring method for query-oriented update summarization. Sentences are scored
+thanks to a criterion combining query relevance and dissimilarity with already read
+documents (history). As the amount of
+data in history increases, non-redundancy
+is prioritized over query-relevance. We
+show that S MMR achieves promising results on the DUC 2007 update corpus.
+
+1
+
+Introduction
+La discussion de la recherche est:
+Discussion and Future Work
+
+Mani, I. and G. Wilson. 2000. Robust temporal processing of news. In 38th Annual Meeting on Association for Computational Linguistics, pages 69–76.
+Association for Computational Linguistics Morristown, NJ, USA.
+
+In this paper we have described S MMR, a scalable sentence scoring method based on MMR that
+achieves very promising results. An important aspect of our sentence scoring method is that it does
+not requires re-ranking nor linguistic knowledge,
+which makes it a simple and fast approach to the
+issue of update summarization. It was pointed out
+at the DUC 2007 workshop that Question Answering and query-oriented summarization have been
+converging on a common task. The value added
+by summarization lies in the linguistic quality. Approaches mixing IR techniques are well suited for
+query-oriented summarization but they require intensive work for making the summary fluent and
+coherent. Among the others, this is a point that we
+think is worthy of further investigation.
+
+Murray, G., S. Renals, and J. Carletta. 2005. Extractive
+Summarization of Meeting Recordings. In Ninth European Conference on Speech Communication and
+Technology. ISCA.
+Salton, G., A. Wong, and C. S. Yang. 1975. A vector
+space model for automatic indexing. Communications of the ACM, 18(11):613–620.
+Swan, R. and J. Allan. 2000. Automatic generation
+of overview timelines. In 23rd annual international
+ACM SIGIR conference on Research and development in information retrieval, pages 49–56.
+
+Acknowledgments
+
+Winkler, W. E. 1999. The state of record linkage and
+current research problems. In Survey Methods Section, pages 73–79.
+
+This work was supported by the Agence Nationale
+de la Recherche, France, project RPM2.
+
+Witte, R., R. Krestel, and S. Bergler. 2007. Generating Update Summaries for DUC 2007. In Document
+Understanding Conference (DUC).
+
+References
+
+Ye, S., L. Qiu, T.S. Chua, and M.Y. Kan. 2005. NUS
+at DUC 2005: Understanding documents via concept links. In Document Understanding Conference
+(DUC).
+
+Boudin, F. and J.M. Torres-Moreno. 2007. A Cosine Maximization-Minimization approach for UserOriented Multi-Document Update Summarization.
+In Recent Advances in Natural Language Processing
+(RANLP), pages 81–87.
+Carbonell, J. and J. Goldstein. 1998. The use of MMR,
+diversity-based reranking for reordering documents
+and producing summaries. In 21st annual international ACM SIGIR conference on Research and development in information retrieval, pages 335–336.
+ACM Press New York, NY, USA.
+
+26
+
+La bibliographie de la recherche est:
+References
+
+Ye, S., L. Qiu, T.S. Chua, and M.Y. Kan. 2005. NUS
+at DUC 2005: Understanding documents via concept links. In Document Understanding Conference
+(DUC).
+
+Boudin, F. and J.M. Torres-Moreno. 2007. A Cosine Maximization-Minimization approach for UserOriented Multi-Document Update Summarization.
+In Recent Advances in Natural Language Processing
+(RANLP), pages 81–87.
+Carbonell, J. and J. Goldstein. 1998. The use of MMR,
+diversity-based reranking for reordering documents
+and producing summaries. In 21st annual international ACM SIGIR conference on Research and development in information retrieval, pages 335–336.
+ACM Press New York, NY, USA.
+
+26
+
+
